@@ -1,0 +1,52 @@
+libextutils-makemaker-cpanfile-perl (0.09-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * Import upstream version 0.09.
+  * Declare compliance with Debian Policy 4.3.0.
+  * Bump debhelper compatibility level to 11.
+  * Update (build) dependency on dual-lifed module.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 05 Jan 2019 18:38:12 +0100
+
+libextutils-makemaker-cpanfile-perl (0.08-1) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+
+  [ Florian Schlichting ]
+  * Import upstream version 0.08
+  * Add (build-)dependencies for CPAN::Meta::Converter 2.141170
+  * Update copyright years
+  * Declare compliance with Debian Policy 4.1.0
+
+ -- Florian Schlichting <fsfs@debian.org>  Mon, 25 Sep 2017 22:07:55 +0200
+
+libextutils-makemaker-cpanfile-perl (0.07-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ gregor herrmann ]
+  * Add debian/upstream/metadata
+  * Import upstream version 0.07
+  * Mark package as autopkgtest-able.
+  * Declare compliance with Debian Policy 3.9.6.
+  * Bump debhelper compatibility level to 9.
+
+ -- gregor herrmann <gregoa@debian.org>  Thu, 10 Dec 2015 18:47:28 +0100
+
+libextutils-makemaker-cpanfile-perl (0.06-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #745773)
+
+ -- Florian Schlichting <fsfs@debian.org>  Fri, 25 Apr 2014 00:38:02 +0200

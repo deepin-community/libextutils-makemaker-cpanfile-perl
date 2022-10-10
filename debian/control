@@ -1,0 +1,26 @@
+Source: libextutils-makemaker-cpanfile-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Florian Schlichting <fsfs@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper (>= 11)
+Build-Depends-Indep: libcpan-meta-perl (>= 2.141170),
+                     libmodule-cpanfile-perl,
+                     perl
+Standards-Version: 4.3.0
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libextutils-makemaker-cpanfile-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libextutils-makemaker-cpanfile-perl.git
+Homepage: https://metacpan.org/release/ExtUtils-MakeMaker-CPANfile
+
+Package: libextutils-makemaker-cpanfile-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         libcpan-meta-perl (>= 2.141170),
+         libmodule-cpanfile-perl
+Description: Perl module adding cpanfile support to ExtUtils-MakeMaker
+ ExtUtils::MakeMaker::CPANfile loads cpanfile in your distribution and
+ modifies parameters for WriteMakefile in your Makefile.PL. Just use it
+ instead of ExtUtils::MakeMaker (which should be loaded internally), and
+ prepare cpanfile.
