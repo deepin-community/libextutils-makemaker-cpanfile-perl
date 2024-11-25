@@ -1,5 +1,6 @@
 ---
 Archive: CPAN
-Contact: Kenichi Ishigaki <ishigaki@cpan.org>
-Name: ExtUtils-MakeMaker-CPANfile
-Repository: https://github.com/charsbar/ExtUtils-MakeMaker-CPANfile
+Bug-Database: https://github.com/charsbar/ExtUtils-MakeMaker-CPANfile/issues
+Bug-Submit: https://github.com/charsbar/ExtUtils-MakeMaker-CPANfile/issues/new
+Repository: https://github.com/charsbar/ExtUtils-MakeMaker-CPANfile.git
+Repository-Browse: https://github.com/charsbar/ExtUtils-MakeMaker-CPANfile

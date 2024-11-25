@@ -1,3 +1,18 @@
+libextutils-makemaker-cpanfile-perl (0.09-2) unstable; urgency=medium
+
+  [ gregor herrmann ]
+  * debian/watch: use uscan version 4.
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since stretch:
+    + Build-Depends-Indep: Drop versioned constraint on libcpan-meta-perl.
+    + libextutils-makemaker-cpanfile-perl: Drop versioned constraint on
+      libcpan-meta-perl in Depends.
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.5.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 12 Dec 2022 20:07:11 +0000
+
 libextutils-makemaker-cpanfile-perl (0.09-1) unstable; urgency=medium
 
   * Team upload.
